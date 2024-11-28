@@ -4,7 +4,6 @@ document.addEventListener('click', (e) => {
   const wall = document.querySelector('.wall');
   const spider = document.querySelector('.spider');
   const rectWall = wall.getBoundingClientRect();
-
   const coordX = e.clientX - rectWall.x;
   const coordY = e.clientY - rectWall.y;
 

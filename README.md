@@ -17,6 +17,7 @@ Move the spider to the cursor on click.
 
 **Notes:**
 
+
 - The code should work with spider and walls of any sizes, do not use hardcoded sizes values.
 - Use properties event.clientX/event.clientY to get click coordinates.
 - You can modify only `src/scripts/main.js` file.
