@@ -15,7 +15,7 @@ document.addEventListener('click', (e) => {
   ) {
     if (coordX > rectWall.width - 10 - spider.offsetWidth / 2) {
       spider.style.left =
-        Math.ceil(rectWall.height - 20 - spider.offsetWidth) + 'px';
+        Math.ceil(rectWall.width - 20 - spider.offsetWidth) + 'px';
     } else if (coordX < spider.offsetWidth / 2 + 10) {
       spider.style.left = '0px';
     } else {
